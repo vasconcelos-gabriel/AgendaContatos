@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\css\bootstrap-grid.min.css.map" />
     <None Include="wwwroot\css\bootstrap-grid.rtl.css.map" />

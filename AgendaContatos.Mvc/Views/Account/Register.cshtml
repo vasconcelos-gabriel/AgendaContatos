@@ -1,4 +1,8 @@
-﻿
+﻿@** declarando a classe de modelo de dados para esta pagina*@
+
+@model AgendaContatos.Mvc.Models.AccountRegisterModel
+
+
 @{
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
 }
@@ -12,25 +16,41 @@
 
        </div>
 
-       <form method="post" action="/Account/Register">
+      @** Declarando o formulario*@
+
+      @using(Html.BeginForm())
+      {
+
              <div class="mb-3">
                <label>Entre com seu nome:</label>
-               <input type="text" class="form-control" name="nome"/>
+               @Html.TextBoxFor(model => model.Nome, new { @class="form-control" } )
+               <div class="text-danger">
+                   @Html.ValidationMessageFor(model => model.Nome)
+               </div>
              </div>   
 
              <div class="mb-3">
                <label>Entre com seu email:</label>
-               <input type="text" class="form-control" name="email"/>
+               @Html.TextBoxFor(model => model.Email, new { @class="form-control" } )
+               <div class="text-danger">
+                   @Html.ValidationMessageFor(model => model.Email)
+               </div>
              </div>
 
              <div class="mb-3">
                <label>Entre com sua senha:</label>
-               <input type="password" class="form-control" name="senha"/>
+               @Html.PasswordFor(model => model.Senha, new { @class="form-control" } )
+               <div class="text-danger">
+                   @Html.ValidationMessageFor(model => model.Senha)
+               </div>
              </div>
 
              <div class="mb-3">
                <label>Confirme a sua senha:</label>
-               <input type="password" class="form-control" name="confirmaSenha"/>
+               @Html.PasswordFor(model => model.ConfirmaSenha, new { @class="form-control" } )
+               <div class="text-danger">
+                   @Html.ValidationMessageFor(model => model.ConfirmaSenha)
+               </div>
              </div>
 
 
@@ -43,9 +63,8 @@
                    Já possui conta? <strong>Acesse aqui!</strong>
                 </a>
              </div>
+      }
 
-
-       </form>
        <div class="text-center">
            <strong>@TempData["Mensagem"]</strong>
        </div>

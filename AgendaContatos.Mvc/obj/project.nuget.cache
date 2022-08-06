@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUpLSjcS1IKbHkdSrnSRgDela3i5GpMWCjR7QQlLgW/GUTV8C7qb3/QnHSoC+2U7WANOwld/MU4CcHP7AnhNPg==",
+  "dgSpecHash": "u3eyJn+hUvLn6W19bS9cc5tcyTAwYMiWUPF7x5Cssal7pOvdQfURgsK0XdAMzdRyoNy6Ot/wUVbq5ZjQR6NAWw==",
   "success": true,
-  "projectFilePath": "D:\\Curso C#\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+  "projectFilePath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
