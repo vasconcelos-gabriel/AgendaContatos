@@ -60,7 +60,7 @@ namespace AgendaContatos.Data.Repositories
                AND 
 	              SENHA = CONVERT(VARCHAR(32), HASHBYTES('MD5', @senha), 2)
                 ";
-            using (var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))
+            using (var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))  
             {
                 return connection.Query<Usuario>(sql, new { email, senha }).FirstOrDefault();
             }

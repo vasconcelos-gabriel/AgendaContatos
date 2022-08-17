@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace AgendaContatos.Data.Entities
 {
-    public class Usuario
+    public class Contato
     {
-
-        public Guid IdUsuario { get; set; }
+        public Guid IdContato { get; set; }
         public string Nome { get; set; }
+        public string Telefone { get; set; }
         public string Email { get; set; }
-        public string Senha { get; set; }
-        public DateTime DataCadastro { get; set; }
+        public DateTime DataNascimento { get; set; }
+        public Guid IdUsuario { get; set; }
 
-        public List<Contato> Contatos { get; set; }
+        public Usuario Usuario { get; set; }
+
 
     }
 }
