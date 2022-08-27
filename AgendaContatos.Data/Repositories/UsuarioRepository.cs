@@ -36,6 +36,18 @@ namespace AgendaContatos.Data.Repositories
             }
         }
 
+        public void Update(Guid idUsuario, string novaSenha)
+        {
+            var sql = @"
+                UPDATE USUARIO SET SENHA = CONVERT(VARCHAR(32), HASHBYTES('MD5', @novaSenha), 2)
+                WHERE IDUSUARIO = @idUsuario
+            ";
+            using (var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))
+            {
+                connection.Execute(sql, new {idUsuario, novaSenha});
+            }
+        }
+
         //consultar um usuario baseado no email
         public Usuario GetByEmail(string email)
         {
@@ -65,6 +77,8 @@ namespace AgendaContatos.Data.Repositories
                 return connection.Query<Usuario>(sql, new { email, senha }).FirstOrDefault();
             }
         }
+
+       
 
     }
 }

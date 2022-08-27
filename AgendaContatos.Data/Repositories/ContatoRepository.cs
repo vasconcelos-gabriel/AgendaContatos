@@ -27,9 +27,9 @@ namespace AgendaContatos.Data.Repositories
                 VALUES(
                     @IdContato,
                     @Nome,
-                    @Telefone
+                    @Telefone,
                     @Email,
-                    @DataNascimento
+                    @DataNascimento,
                     @IdUsuario)            
             ";
             using (var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))

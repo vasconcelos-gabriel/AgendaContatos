@@ -1,0 +1,12 @@
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\bin\Release\net6.0\AgendaContatos.Messages.deps.json
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\bin\Release\net6.0\AgendaContatos.Messages.dll
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\bin\Release\net6.0\AgendaContatos.Messages.pdb
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.csproj.AssemblyReference.cache
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.AssemblyInfoInputs.cache
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.AssemblyInfo.cs
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.csproj.CoreCompileInputs.cache
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.dll
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\refint\AgendaContatos.Messages.dll
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\AgendaContatos.Messages.pdb
+D:\Estudos\Curso C#\AgendaContatos\AgendaContatos.Messages\obj\Release\net6.0\ref\AgendaContatos.Messages.dll

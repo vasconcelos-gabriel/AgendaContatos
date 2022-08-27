@@ -1,0 +1,18 @@
+﻿@using AgendaContatos.Mvc.Models
+@using Newtonsoft.Json
+
+@{
+    Layout = "~/Views/Shared/_ContatosLayout.cshtml";
+
+    var json = User.Identity.Name;
+
+    var authenticationModel = JsonConvert.DeserializeObject<AuthenticationModel>(json);
+
+
+}
+
+
+ <div class="mt-3">ID do usuário: <strong>@authenticationModel.IdUsuario</strong></div>
+ <div class="mt-3">Nome do usuário: <strong>@authenticationModel.Nome</strong></div>
+ <div class="mt-3">Email usuário: <strong>@authenticationModel.Email</strong></div>
+ <div class="mt-3">Data e hora de acesso usuário: <strong>@authenticationModel.DataHoraAcesso.ToString("dd/MM/yyyy HH:mm")</strong></div>

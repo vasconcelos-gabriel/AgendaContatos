@@ -7,7 +7,7 @@
         public string DataNascimento { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
-        public string Idade { get; set; }
+        public int Idade { get; set; }
 
 
 

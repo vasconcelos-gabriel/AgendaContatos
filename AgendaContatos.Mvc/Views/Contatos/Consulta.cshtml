@@ -11,7 +11,7 @@
 
 
 
-<table class="table table-sm table-hover">
+<table id="tabela" class="table table-sm table-hover">
     <thead>
         <tr>
             <th>Nome do Contato:</th>
@@ -24,27 +24,27 @@
     </thead>
 
     <tbody>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <a href="/Contatos/Edicao" class="btn btn-sm btn-primary">
-                Editar    
-                </a>
-                <a href="#" class="btn btn-sm btn-danger">
-                Excluir    
-                </a>
-            </td>
-        </tr>
+
+        @foreach(var contato in Model)
+        {
+            <tr>
+                <td>@contato.Nome</td>
+                <td>@contato.Telefone</td>
+                <td>@contato.Email</td>
+                <td>@contato.DataNascimento</td>
+                <td>@contato.Idade</td>
+                <td>
+                    <a href="/Contatos/Edicao/@contato.IdContato" class="btn btn-sm btn-primary">
+                        Editar
+                    </a>
+                    <a href="/Contatos/Exclusao/@contato.IdContato" 
+                        onClick="return confirm('Deseja excluir o contato @contato.Nome?');"
+                        class="btn btn-sm btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
-
-    <tfoot colspan="6">
-        Quantidade de contato: 0
-
-    </tfoot>
-
 </table>
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QVyMmIHQ2/a96GFfIaWoO1fYQFr1LdGRzuWRGbBYhOxCiA87/P8e+KLYH023qwyELUuVZFiTGUxtqqALFspj+A==",
+  "dgSpecHash": "+sT9F12w9hFWwDirJoyRv86ihbvFPreDxSTM3rdAUyOyBuEF1br7TxALXQEMxmfeoi29O3mhtgjKihaK6ifVRQ==",
   "success": true,
-  "projectFilePath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+  "projectFilePath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {}
+    "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {}
   },
   "projects": {
-    "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
+    "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
+        "projectUniqueName": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
         "projectName": "AgendaContatos.Data",
-        "projectPath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
+        "projectPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\obj\\",
+        "outputPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

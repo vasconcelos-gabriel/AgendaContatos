@@ -1,5 +1,1 @@
-﻿SELECT * FROM USUARIO
-WHERE
-	EMAIL = @email
-AND 
-	SENHA = CONVERT(VARCHAR(32), HASHBYTES('MD5', @Senha), 2)
+﻿select * from usuario

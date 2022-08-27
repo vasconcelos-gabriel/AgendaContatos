@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {}
+        }
+      },
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -2852,10 +2861,39 @@
         "runtime": {
           "bin/placeholder/AgendaContatos.Data.dll": {}
         }
+      },
+      "AgendaContatos.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AgendaContatos.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AgendaContatos.Messages.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "Dapper/2.0.123": {
       "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
       "type": "package",
@@ -8904,11 +8942,18 @@
       "type": "project",
       "path": "../AgendaContatos.Data/AgendaContatos.Data.csproj",
       "msbuildProject": "../AgendaContatos.Data/AgendaContatos.Data.csproj"
+    },
+    "AgendaContatos.Messages/1.0.0": {
+      "type": "project",
+      "path": "../AgendaContatos.Messages/AgendaContatos.Messages.csproj",
+      "msbuildProject": "../AgendaContatos.Messages/AgendaContatos.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AgendaContatos.Data >= 1.0.0",
+      "AgendaContatos.Messages >= 1.0.0",
+      "Bogus >= 34.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.8"
     ]
   },
@@ -8919,11 +8964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+      "projectUniqueName": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
       "projectName": "AgendaContatos.Mvc",
-      "projectPath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+      "projectPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\obj\\",
+      "outputPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8944,8 +8989,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
-              "projectPath": "D:\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj"
+            "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
+              "projectPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj"
+            },
+            "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Messages\\AgendaContatos.Messages.csproj": {
+              "projectPath": "D:\\Estudos\\Curso C#\\AgendaContatos\\AgendaContatos.Messages\\AgendaContatos.Messages.csproj"
             }
           }
         }
@@ -8960,6 +9008,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.8, )"
